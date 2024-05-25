@@ -12,30 +12,30 @@
 Define the puzzle:
 
 ```python
-    map_ = Map(
-        [
-            BasicNode(Color.PURPLE, (1, 1)),
-            BasicNode(Color.YELLOW, (2, 1)),
-            TriangleNode(Color.GREEN, (3, 1)),
-            BasicNode(Color.RED, (4, 1)),
-            BasicNode(Color.GREEN, (5, 1)),
-            BasicNode(Color.YELLOW, (6, 1)),
+map_ = Map(
+    [
+        BasicNode(Color.PURPLE, (1, 1)),
+        BasicNode(Color.YELLOW, (2, 1)),
+        TriangleNode(Color.GREEN, (3, 1)),
+        BasicNode(Color.RED, (4, 1)),
+        BasicNode(Color.GREEN, (5, 1)),
+        BasicNode(Color.YELLOW, (6, 1)),
 
-            BasicNode(Color.RED, (2, 2)),
-            DiamondNode(Color.CYAN, (3, 2)),
-            BasicNode(Color.PURPLE, (4, 2)),
+        BasicNode(Color.RED, (2, 2)),
+        DiamondNode(Color.CYAN, (3, 2)),
+        BasicNode(Color.PURPLE, (4, 2)),
 
-            BasicNode(Color.RED, (1, 3)),
-            BasicNode(Color.PURPLE, (2, 3)),
-            TriangleNode(Color.GREEN, (3, 3)),
-            BasicNode(Color.RED, (4, 3)),
-            LineNode(Color.RED, (5, 3), Direction.HORIZONTAL),
+        BasicNode(Color.RED, (1, 3)),
+        BasicNode(Color.PURPLE, (2, 3)),
+        TriangleNode(Color.GREEN, (3, 3)),
+        BasicNode(Color.RED, (4, 3)),
+        LineNode(Color.RED, (5, 3), Direction.HORIZONTAL),
 
-            LineNode(Color.YELLOW, (3, 4), Direction.VERTICAL),
-            BasicNode(Color.PURPLE, (4, 4)),
-            BasicNode(Color.RED, (5, 4)),
-        ]
-    )
+        LineNode(Color.YELLOW, (3, 4), Direction.VERTICAL),
+        BasicNode(Color.PURPLE, (4, 4)),
+        BasicNode(Color.RED, (5, 4)),
+    ]
+)
 ```
 
 You can also add your favorite colors:
