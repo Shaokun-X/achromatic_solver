@@ -4,8 +4,8 @@
 
 
 ### Requirement
-Python 3.6 +
-Terminal that supports [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
+- Python 3.6 +
+- Terminal that supports [ANSI escape code](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
 ### Usage
 
