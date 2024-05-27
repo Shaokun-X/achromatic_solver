@@ -49,10 +49,11 @@ class Color(Enum):
     RED = get_color_sequence(255, 0, 0)
     PURPLE = get_color_sequence(128, 0, 128)
     GREEN = get_color_sequence(0, 255, 0)
+    # custom color
     MY_FAV = get_color_sequence(111, 222, 33)
 ```
 
-Then simply run the scripts:
+Then simply run the script:
 ```shell
 $ python solve.py
 ```
